@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:400,700|Playfair+Display:400,700|Dancing+Script:400,700|Yellowtail);
+
+body{
+  /*padding-top: 50px;*/
+  font-family: "Roboto Slab",cursive;
+  font-weight: 300;
+  font-size: 2em;
+  position: relative;
+}
+
+h3,h4,h5,h6{
+  font-family: "Raleway",sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+h2{
+  font-family: "Playfair Display",sans-serif;
+  font-weight: 100;
+  margin: 0
+
+}
+
+h1{
+  font-family: "Dancing Script",sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+
+img {
+  max-width: 200px;
+}
+/*header navigation*/
+
+#brandname{
+  color: #FFDC09;
+}
+header .navbar{
+  padding: 30px 0;
+}
+header .navbar-default{
+  background-color: transparent;
+  border: none;
+}
+
+header .navbar-default .navbar-nav a{
+  color: white;
+  padding: 5px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color: #FFDC09;
+}
+
+header .navbar-default .navbar-nav .active a {
+  font-weight: 700;
+  color: #EEC857;
+  background: transparent;
+  border-bottom: 4px solid;
+  text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover{
+  color: #E15D5F;
+  background: transparent;
+  text-shadow: none;
+}
+
+header .navbar-brand{
+  background: url("..img/logo.png");
+  background-repeat: no-repeat;
+  background-position: 15px 0;
+  height: auto;
+}
+
+/*page*/
+
+.page{
+  padding: 50px 0;
+}
+
+.page h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*mission page*/
+
+#mission{
+  background-color: #B55F3A;
+  background-image: linear-gradient(to bottom, #B5784D, #0C8D99);
+  border-top: 20px solid rgba:(238, 200, 86, .5);
+}
+
+/*servicespage*/
+
+#services{
+  background-color: #B55F3A;
+  background-image: linear-gradient(to bottom, #0C8D99, #B58551);
+  border-top: 20px solid rgba:(238, 200, 86, .5);
+}
+
+/*staff page*/
+
+#staff{
+  background-color: #B55F3A;
+  background-image: linear-gradient(to bottom, #B58551, #0C8D99);
+  border-top: 20px solid rgba:(238, 200, 86, .5);
+}
+
+/*testimonials page*/
+
+#testimonials{
+  background-color: #B55F3A;
+  background-image: linear-gradient(to bottom, #0C8D99, #B5784D);
+  border-top: 20px solid rgba:(238, 200, 86, .5);
+}
+
+#map{
+background-color: #B55F3A;
+background-image: linear-gradient(to bottom, #B5784D, white);
+border-top: 20px solid rgba:(238, 200, 86, .5);
+height: 400px;
+}
+
+.map-container{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/*footer style*/
+
+footer{
+  background-color: white;
+  border: none;
+}
+
+footer li{
+  color: white;
+}
+footer .navbar-default{
+  /*background: transparent;*/
+}
+
+.page{
+  padding: 50px 0;
+}
+
+.page h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
